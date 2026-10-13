@@ -1,0 +1,140 @@
+main {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* Centralizar a main na página */
+    font-family: Tahoma;
+}
+
+#acima {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(Imagens/Background_1.png);
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    position: relative;
+    width: 10%;
+    height: 100px;
+}
+
+#logo img {
+    width: 160%;
+    height: auto;
+}
+
+h1 {
+    position: relative;
+    width: 35%;
+    height: 100px;
+    font-family: Tahoma;
+    font-size: 30px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    /* Cor da fonte dentro do efeito moldura */
+    -webkit-text-stroke-color: darkolivegreen;
+    /* Cor da moldura dentro do efeito moldura */
+    -webkit-text-stroke-width: 2px;
+    /* Espessura da moldura dentro do efeito moldura */
+    /*  */
+}
+
+nav {
+    position: relative;
+    width: 35%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    flex-direction: row;
+}
+
+nav a {
+    color: beige;
+    text-decoration: none;
+    /* Retirando o sublinhado */
+    font-size: 14px;
+    width: 24%;
+    text-align: center;
+    height: 23px;
+}
+
+nav a:hover {
+    background-color: beige;
+    color: darkolivegreen;
+    border-radius: 20px;
+    /* Cantos arredondados */
+    transition: 1s all;
+}
+
+#meio {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-image: url(Imagens/Background_2.png);
+    background-size: cover;
+}
+
+#container {
+    position: relative;
+    width: 78%;
+    height: 270px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa {
+    position: relative;
+    width: 20%;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa img {
+    width: 160px;
+    height: auto;
+}
+
+.caixa p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.caixa a {
+    background-color: coral;
+    text-decoration: none;
+    font-size: 12px;
+    width: 35%;
+    text-align: center;
+    height: 23px;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    position: relative;
+    width: auto;
+    height: 100px;
+    background-color: burlywood;
+    border: 4px solid greenyellow;
+}

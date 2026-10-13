@@ -1,0 +1,131 @@
+main{
+    position: relative;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    background-color: palevioletred;
+    color: black;
+    font-family: verdana;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: lime;
+}
+
+#caixa_container{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixinha{
+    position: relative;
+    width: 500px;
+    height: 130px;
+    background-color: palevioletred;
+    margin: auto;
+}
+
+#caixa_container1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixinha1{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+}
+
+#caixa_container2{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: orange;
+}
+
+#caixa_container3{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caixinha2{
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background-color: blue;
+    margin: auto;
+    display: flex;
+
+}
+
+.caixinha3{
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background-color: aqua;
+    margin: auto;
+    display: flex;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+
+
+/* ------------------------     Visualização Mobile     ------------------------------------*/
+
+@media only screen and (max-width:480px) {
+
+main {
+    width: 100%;
+}
+
+#caixa_container,
+#caixa_container1,
+#caixa_container2,
+#caixa_container3 {
+    flex-wrap: wrap;
+    height: 350px;
+}
+
+.caixinha,
+.caixinha2,
+.caixinha3 {
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+
+}
